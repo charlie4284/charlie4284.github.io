@@ -1,0 +1,35 @@
+.Terminal {
+  font-family: monospace;
+}
+
+#cursor {
+  background: #fff;
+  animation: blink 0.8s infinite;
+  -webkit-animation: blink 0.8s infinite;
+  width: 1px;
+  height: 15px;
+}
+
+@keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: #fff;
+  }
+  100% {
+    background: #222;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: #222;
+  }
+  50% {
+    background: #fff;
+  }
+  100% {
+    background: #222;
+  }
+}

@@ -1,0 +1,46 @@
+.SideMenu {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 240px;
+  padding: 1em;
+  box-shadow: 5px 0 5px -5px #333333;
+  display: flex;
+  flex-direction: column;
+  transition: left 0.5s;
+  z-index: 1;
+}
+
+.SideMenuButton {
+  position: relative;
+  left: calc(235px + 0.5em);
+  top: 4em;
+  width: 24px;
+  height: 24px;
+  box-shadow: 0 0 5px #333333;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ProfileImg {
+  position: relative;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+#ProfileImage {
+  width: 100%;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+#ProfileImage:hover {
+  opacity: 1;
+}
