@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7302301.chunk.css",
+    "main.js": "/static/js/main.8b338ab4.chunk.js",
+    "main.js.map": "/static/js/main.8b338ab4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5562d1df.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5562d1df.js.map",
+    "static/js/2.603eadd3.chunk.js": "/static/js/2.603eadd3.chunk.js",
+    "static/js/2.603eadd3.chunk.js.map": "/static/js/2.603eadd3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1827b7a3d116abd45124065b32fcd3c7.js": "/precache-manifest.1827b7a3d116abd45124065b32fcd3c7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e7302301.chunk.css.map": "/static/css/main.e7302301.chunk.css.map",
+    "static/js/2.603eadd3.chunk.js.LICENSE.txt": "/static/js/2.603eadd3.chunk.js.LICENSE.txt",
+    "static/media/chevron.59edbdf8.svg": "/static/media/chevron.59edbdf8.svg",
+    "static/media/dayta.jpeg": "/static/media/dayta.0469b8a1.jpeg",
+    "static/media/face.png": "/static/media/face.de092b45.png",
+    "static/media/face.eb354dc2.svg": "/static/media/face.eb354dc2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5562d1df.js",
+    "static/js/2.603eadd3.chunk.js",
+    "static/css/main.e7302301.chunk.css",
+    "static/js/main.8b338ab4.chunk.js"
+  ]
+}
