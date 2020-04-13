@@ -1,11 +1,19 @@
-.App {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
-
 .Page {
   padding: 1em;
   padding-left: 3em;
   z-index: 0;
+}
+
+.App {
+  width: 100vw;
+  position: relative;
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+  .App {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+  }
 }
