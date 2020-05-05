@@ -4,6 +4,8 @@ import { Route, Switch, Redirect } from "react-router-dom";
 import { ThemeCtx, useTheme } from "contexts/Theme";
 import SideMenu from "components/SideMenu";
 import Homepage from "containers/Homepage";
+import PortfolioPage from "containers/PortfolioPage";
+import NotesPage from "containers/NotesPage";
 import ContactPage from "containers/ContactPage";
 
 const routes = [
@@ -17,13 +19,13 @@ const routes = [
     icon: "",
     name: "Portfolio",
     path: "/portfolio",
-    component: Homepage,
+    component: PortfolioPage,
   },
   {
     icon: "",
     name: "Notes",
     path: "/notes",
-    component: Homepage,
+    component: NotesPage,
   },
   {
     icon: "",

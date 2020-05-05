@@ -12,9 +12,6 @@
     transition: left 0.5s;
     z-index: 1;
   }
-  .SideMenu::after {
-    content: "NICE";
-  }
 }
 
 @media screen and (min-width: 768px) {
